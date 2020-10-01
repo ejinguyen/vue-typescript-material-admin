@@ -39,4 +39,4 @@
     </v-row>
   </v-container>
 </template>
-<script lang="js" src="./Changelog.js"></script>
+<script lang="js" src="./Changelog.ts"></script>

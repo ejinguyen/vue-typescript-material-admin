@@ -11,4 +11,4 @@
   </div>
 </template>
 
-<script lang="js" src="./Post.js"></script>
+<script lang="js" src="./Post.ts"></script>

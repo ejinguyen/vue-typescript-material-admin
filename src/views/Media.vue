@@ -105,7 +105,7 @@
   </v-container>
 </template>
 
-<script lang="js" src="./Media.js"></script>
+<script lang="js" src="./Media.ts"></script>
 
 <style lang="sass" scoped>
 .card-media img

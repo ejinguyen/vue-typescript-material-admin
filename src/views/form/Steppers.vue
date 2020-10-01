@@ -56,4 +56,4 @@
   </div>
 </template>
 
-<script lang="js" src="./Steppers.js"></script>
+<script lang="js" src="./Steppers.ts"></script>

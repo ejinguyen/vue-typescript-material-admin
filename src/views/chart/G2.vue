@@ -117,4 +117,4 @@
   </v-container>
 </template>
 
-<script lang="js" src="./G2.js"></script>
+<script lang="js" src="./G2.ts"></script>

@@ -22,7 +22,7 @@
   </div>
 </template>
 
-<script lang="js" src="./Editors.js"></script>
+<script lang="js" src="./Editors.ts"></script>
 <style lang="sass" scoped>
 .quill
   height : 520px

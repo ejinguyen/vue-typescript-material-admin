@@ -75,7 +75,7 @@
   </v-container>
 </template>
 
-<script lang="js" src="./Login.js"></script>
+<script lang="js" src="./Login.ts"></script>
 
 <style lang="sass" scoped>
 .page-login

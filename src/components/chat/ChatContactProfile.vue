@@ -108,18 +108,18 @@ export default {
   data() {
     return {
       chat: null,
-      selectedTab: null,
+      selectedTab: null
     }
   },
   computed: {
     user() {
       let Origin = {
         name: 'Chat',
-        avatar: '',
+        avatar: ''
       }
       let user = getUserById(this.$route.params.uuid)
       return Object.assign(Origin, user)
-    },
-  },
+    }
+  }
 }
 </script>

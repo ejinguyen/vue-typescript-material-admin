@@ -1,4 +1,4 @@
-import mixins from 'vuetify/lib/util/mixins'
+const mixins = require('vuetify/lib/util/mixins')
 import BaseMixin from '../BaseMixin'
 import { Pie } from '@antv/g2plot'
 

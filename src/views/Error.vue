@@ -14,7 +14,7 @@
     </v-container>
   </v-app>
 </template>
-<script lang="js" src="./Error.js"></script>
+<script lang="js" src="./Error.ts"></script>
 
 <style lang="sass" scoped>
 h1

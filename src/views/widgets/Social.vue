@@ -36,4 +36,4 @@
   </v-container>
 </template>
 
-<script lang="js" src="./Social.js"></script>
+<script lang="js" src="./Social.ts"></script>

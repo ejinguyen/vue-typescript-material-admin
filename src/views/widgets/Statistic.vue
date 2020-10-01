@@ -70,5 +70,5 @@
   </v-container>
 </template>
 
-<script lang="js" src="./Statistic.js"></script>
+<script lang="js" src="./Statistic.ts"></script>
 <style lang="sass" scoped></style>

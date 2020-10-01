@@ -61,7 +61,7 @@
   </v-card>
 </template>
 
-<script lang="js" src="./Inbox.js"></script>
+<script lang="js" src="./Inbox.ts"></script>
 <style lang="sass" scoped>
 .mail-inbox
   min-height: calc(100vh - 112px - 48px)
