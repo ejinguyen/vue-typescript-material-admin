@@ -94,4 +94,4 @@
   </div>
 </template>
 
-<script lang="js" src="./Advance.ts"></script>
+<script lang="ts" src="./Advance.ts"></script>

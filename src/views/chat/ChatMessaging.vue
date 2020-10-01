@@ -23,4 +23,4 @@
   </v-container>
 </template>
 
-<script lang="js" src="./ChatMessaging.ts"></script>
+<script lang="ts" src="./ChatMessaging.ts"></script>

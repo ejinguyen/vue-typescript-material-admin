@@ -1,9 +1,9 @@
 const camelCase = require('lodash/camelCase')
-const requireModule = require.context('.', false, /\.js$/)
+const requireModule = require.context('.', false, /\.ts$/)
 const modules: any = {}
 requireModule.keys().forEach((fileName) => {
-  if (fileName === './index.js') return
-  const moduleName = camelCase(fileName.replace(/(\.\/|\.js)/g, ''))
+  if (fileName === './index.ts') return
+  const moduleName = camelCase(fileName.replace(/(\.\/|\.ts)/g, ''))
 
   modules[moduleName] = requireModule(fileName).default
 })

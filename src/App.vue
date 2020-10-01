@@ -44,7 +44,7 @@
     </v-snackbar>
   </v-app>
 </template>
-<script lang="js" src="./App.ts"></script>
+<script lang="ts" src="./App.ts"></script>
 
 <style lang="sass" scoped>
 .setting-fab

@@ -13,4 +13,4 @@
   </div>
 </template>
 
-<script lang="js" src="./BasicForm.ts"></script>
+<script lang="ts" src="./BasicForm.ts"></script>

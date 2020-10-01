@@ -16,7 +16,7 @@
   </v-container>
 </template>
 
-<script lang="js" src="./Index.ts"></script>
+<script lang="ts" src="./Index.ts"></script>
 <style lang="sass" scoped>
 .mail
   &-menu

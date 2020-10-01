@@ -15,7 +15,7 @@
   </v-app>
 </template>
 
-<script lang="js" src="./Error.ts"></script>
+<script lang="ts" src="./Error.ts"></script>
 <style lang="sass" scoped>
 h1
   font-size: 150px

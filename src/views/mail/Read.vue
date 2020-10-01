@@ -1,4 +1,4 @@
 <template>
   <div></div>
 </template>
-<script lang="js" src="./Read.ts"></script>
+<script lang="ts" src="./Read.ts"></script>

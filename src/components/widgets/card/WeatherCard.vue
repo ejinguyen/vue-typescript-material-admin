@@ -60,6 +60,4 @@
   </v-card>
 </template>
 
-<script>
-export default {}
-</script>
+<script lang="ts" src="./WeatherCard.ts"></script>

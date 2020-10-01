@@ -1,5 +1,7 @@
+import Vue from 'vue'
 import ThemeSettings from '@/components/ThemeSettings.vue'
-export default {
+
+export default Vue.extend({
   components: {
     ThemeSettings
   },
@@ -31,16 +33,16 @@ export default {
         text: e.text,
         color: e.color
       }
+    });
+    (this as any).$on('AUTH_FAIELD', () => {
+      (this as any).$router.push('/auth/login')
+    });
+    (this as any).$on('SERVER_ERROR', () => {
+      (this as any).snackbar = {
+        show: true,
+        text: 'Server Error',
+        color: 'error'
+      }
     })
-      (this as any).$on('AUTH_FAIELD', () => {
-        (this as any).$router.push('/auth/login')
-      })
-      (this as any).$on('SERVER_ERROR', () => {
-        (this as any).snackbar = {
-          show: true,
-          text: 'Server Error',
-          color: 'error'
-        }
-      })
   }
-}
+})

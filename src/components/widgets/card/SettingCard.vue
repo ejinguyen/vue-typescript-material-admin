@@ -67,15 +67,5 @@
     </v-list>
   </v-card>
 </template>
-<script>
-export default {
-  data() {
-    return {
-      notifications: false,
-      sound: false,
-      video: false,
-      invites: false
-    }
-  }
-}
-</script>
+
+<script lang="ts" src="./SettingCard.ts"></script>

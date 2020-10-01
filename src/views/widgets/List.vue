@@ -17,4 +17,4 @@
   </v-container>
 </template>
 
-<script lang="js" src="./List.ts"></script>
+<script lang="ts" src="./List.ts"></script>

@@ -4,6 +4,7 @@ module.exports = {
   rootDir: path.resolve(__dirname, '../../'),
   moduleFileExtensions: [
     'js',
+    'ts',
     'json',
     'vue'
   ],
@@ -22,9 +23,9 @@ module.exports = {
   mapCoverage: true,
   coverageDirectory: '<rootDir>/test/unit/coverage',
   collectCoverageFrom: [
-    'src/**/*.{js,vue}',
-    '!src/main.js',
-    '!src/router/index.js',
+    'src/**/*.{js,ts,vue}',
+    '!src/main.ts',
+    '!src/router/index.ts',
     '!**/node_modules/**'
   ]
 }

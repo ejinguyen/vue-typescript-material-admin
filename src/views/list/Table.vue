@@ -101,4 +101,4 @@
   </div>
 </template>
 
-<script lang="js" src="./Table.ts"></script>
+<script lang="ts" src="./Table.ts"></script>

@@ -64,6 +64,4 @@
   </v-card>
 </template>
 
-<script>
-export default {}
-</script>
+<script lang="ts" src="./ProfileCard.ts"></script>

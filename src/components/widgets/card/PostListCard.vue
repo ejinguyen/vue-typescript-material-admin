@@ -52,25 +52,7 @@
   </v-card>
 </template>
 
-<script>
-export default {
-  props: {
-    items: { type: [Array, Object] }
-  },
-
-  methods: {
-    handleThumb() {
-      // implement your own method here
-    },
-    handleComment() {
-      // implement your own method here
-    },
-    handleFavorite() {
-      // implement your own method here
-    }
-  }
-}
-</script>
+<script lang="ts" src="./PostListCard.ts"></script>
 
 <style lang="sass" scoped>
 .ft-200

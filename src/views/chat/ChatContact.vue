@@ -26,4 +26,4 @@
   </v-container>
 </template>
 
-<script lang="js" src="./ChatContact.ts"></script>
+<script lang="ts" src="./ChatContact.ts"></script>

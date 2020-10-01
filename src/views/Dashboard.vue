@@ -210,4 +210,4 @@
     </v-container>
   </div>
 </template>
-<script lang="js" src="./Dashboard.ts"></script>
+<script lang="ts" src="./Dashboard.ts"></script>

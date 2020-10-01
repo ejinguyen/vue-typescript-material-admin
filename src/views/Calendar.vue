@@ -74,4 +74,4 @@
   </v-container>
 </template>
 
-<script lang="js" src="./Calendar.ts"></script>
+<script lang="ts" src="./Calendar.ts"></script>

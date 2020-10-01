@@ -12,7 +12,7 @@
   </v-app>
 </template>
 
-<script lang="js" src="./NotFound.ts"></script>
+<script lang="ts" src="./NotFound.ts"></script>
 <style lang="sass" scoped>
 h1
   font-size: 150px

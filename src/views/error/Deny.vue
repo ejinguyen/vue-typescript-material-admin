@@ -15,7 +15,7 @@
   </div>
 </template>
 
-<script lang="js" src="./Deny.ts"></script>
+<script lang="ts" src="./Deny.ts"></script>
 <style lang="sass" scoped>
 h1
   font-size: 150px

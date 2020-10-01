@@ -329,4 +329,4 @@
   </v-container>
 </template>
 
-<script lang="js" src="./Echart.ts"></script>
+<script lang="ts" src="./Echart.ts"></script>
