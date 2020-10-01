@@ -22,26 +22,7 @@
   </div>
 </template>
 
-<script>
-import 'quill/dist/quill.core.css'
-import 'quill/dist/quill.snow.css'
-import 'quill/dist/quill.bubble.css'
-import { quillEditor } from 'vue-quill-editor'
-export default {
-  components: {
-    quillEditor,
-  },
-  data() {
-    return {
-      content: 'Compose Epic Story...',
-      editorOption: {},
-    }
-  },
-  computed: {},
-
-  methods: {},
-}
-</script>
+<script lang="js" src="./Editors.js"></script>
 <style lang="sass" scoped>
 .quill
   height : 520px

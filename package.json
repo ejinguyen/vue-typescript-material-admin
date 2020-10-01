@@ -3,7 +3,7 @@
   "version": "0.1.4",
   "private": true,
   "scripts": {
-    "serve": "vue-cli-service serve",
+    "serve": "vue-cli-service serve --open --fix",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
     "deploy": "aliyun-oss-deploy -p ./dist",

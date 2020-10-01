@@ -13,18 +13,4 @@
   </div>
 </template>
 
-<script>
-import ContactForm from '@/components/form/ContactForm'
-import PaymentForm from '@/components/form/PaymentForm'
-export default {
-  components: {
-    ContactForm,
-    PaymentForm
-  },
-  data() {
-    return {}
-  },
-  computed: {},
-  methods: {}
-}
-</script>
+<script lang="js" src="./BasicForm.js"></script>

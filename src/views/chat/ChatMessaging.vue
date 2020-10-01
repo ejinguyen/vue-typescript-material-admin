@@ -22,24 +22,5 @@
     </template>
   </v-container>
 </template>
-<script>
-import ChatHistory from '@/components/chat/ChatHistory'
-import ChatWindow from '@/components/chat/ChatWindow'
-export default {
-  components: {
-    ChatHistory,
-    ChatWindow,
-  },
-  data() {
-    return {}
-  },
-  computed: {
-    showSidebar() {
-      return this.$route.params.uuid === undefined
-    },
-    showWindow() {
-      return this.$route.params.uuid !== undefined
-    },
-  },
-}
-</script>
+
+<script lang="js" src="./ChatMessaging.js"></script>

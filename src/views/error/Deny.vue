@@ -15,18 +15,7 @@
   </div>
 </template>
 
-<script>
-export default {
-  methods: {
-    goHome() {
-      this.$router.push({ path: '/' })
-    },
-  },
-  created() {
-    console.log('here')
-  },
-}
-</script>
+<script lang="js" src="./Deny.js"></script>
 <style lang="sass" scoped>
 h1
   font-size: 150px

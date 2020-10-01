@@ -14,16 +14,8 @@
     </v-container>
   </v-app>
 </template>
+<script lang="js" src="./Error.js"></script>
 
-<script>
-export default {
-  methods: {
-    goHome() {
-      this.$router.push({ path: '/' })
-    },
-  },
-}
-</script>
 <style lang="sass" scoped>
 h1
   font-size: 150px

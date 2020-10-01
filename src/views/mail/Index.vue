@@ -16,24 +16,7 @@
   </v-container>
 </template>
 
-<script>
-import MailMenu from '@/components/email/MailMenu'
-export default {
-  components: {
-    MailMenu
-  },
-  data() {
-    return {}
-  },
-  computed: {},
-  methods: {
-    handleCompose() {}
-  },
-
-  created() {}
-}
-</script>
-
+<script lang="js" src="./Index.js"></script>
 <style lang="sass" scoped>
 .mail
   &-menu

@@ -12,15 +12,7 @@
   </v-app>
 </template>
 
-<script>
-export default {
-  methods: {
-    goHome() {
-      this.$router.push({ path: '/' })
-    },
-  },
-}
-</script>
+<script lang="js" src="./NotFound.js"></script>
 <style lang="sass" scoped>
 h1
   font-size: 150px
